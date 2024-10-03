@@ -116,8 +116,7 @@ const menuItems = [
 import Link from "next/link";
 import Image from "next/image";
 import React from "react";
-import { icons } from "@react-icons/all-files";
-
+ 
 const Menu = () => {
   return (
     <div className="mt-4 text-sm">
