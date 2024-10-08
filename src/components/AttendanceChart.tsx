@@ -3,7 +3,6 @@ import React from "react";
 import {
   BarChart,
   Bar,
-  Rectangle,
   XAxis,
   YAxis,
   CartesianGrid,
@@ -57,9 +56,10 @@ const AttendanceChart = () => {
             tick={{ fill: "#d1d5db" }}
             tickLine={false}
           />
-          <YAxis axisLine={false} tick={{ fill: "#d1d5db" }}
-            tickLine={false} />
-          <Tooltip contentStyle={{borderRadius :"18px" , borderColor : "lightgray"}} />
+          <YAxis axisLine={false} tick={{ fill: "#d1d5db" }} tickLine={false} />
+          <Tooltip
+            contentStyle={{ borderRadius: "18px", borderColor: "lightgray" }}
+          />
           <Legend
             align="left"
             verticalAlign="top"

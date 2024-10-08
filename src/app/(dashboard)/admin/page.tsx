@@ -2,7 +2,9 @@
 import AttendanceChart from "@/components/AttendanceChart";
 import CountChart from "@/components/CountChart";
 import UserCard from "@/components/UserCard";
+import FinanceChart from "@/components/FinanceChart";
 import React from "react";
+import EventCalender from "@/components/EventCalender";
 
 const page = () => {
   return (
@@ -28,10 +30,14 @@ const page = () => {
           </div>
         </div>
         {/* bottom charts */}
-        <div></div>
+        <div className="w-full h-[500px]">
+          <FinanceChart />
+        </div>
       </div>
       {/* right */}
-      <div className="w-full lg:w-1/2">r</div>
+      <div className="w-full lg:w-1/2 flex flex-col gap-8">
+        <EventCalender />
+      </div>
     </div>
   );
 };

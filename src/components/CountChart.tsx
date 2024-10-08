@@ -4,7 +4,6 @@ import Image from "next/image";
 import {
   RadialBarChart,
   RadialBar,
-  Legend,
   ResponsiveContainer,
 } from "recharts";
 
@@ -22,7 +21,7 @@ const data = [
 
   {
     name: "Boys",
-    count: 53,
+    count: 70,
     fill: "#C3EBFA",
   },
 ];
