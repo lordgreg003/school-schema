@@ -45,7 +45,13 @@ const AttendanceChart = () => {
     <div className="bg-white rounded-lg p-4 h-full">
       <div className="flex justify-between items-center">
         <h1 className="font-bold text-lg ">Attendance </h1>
-        <Image src="/moreDark.png" alt="" width={20} height={20} />
+        <Image
+          className="cursor-pointer"
+          src="/moreDark.png"
+          alt=""
+          width={20}
+          height={20}
+        />
       </div>
       <ResponsiveContainer width="100%" height="90%">
         <BarChart width={500} height={300} data={data} barSize={20}>
