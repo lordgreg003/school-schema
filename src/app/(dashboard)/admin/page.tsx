@@ -5,6 +5,7 @@ import UserCard from "@/components/UserCard";
 import FinanceChart from "@/components/FinanceChart";
 import React from "react";
 import EventCalender from "@/components/EventCalender";
+import Announcement from "@/components/Announcement";
 
 const page = () => {
   return (
@@ -35,8 +36,9 @@ const page = () => {
         </div>
       </div>
       {/* right */}
-      <div className="w-full lg:w-1/2 flex flex-col gap-8">
+      <div className="w-full lg:w-1/2 flex  flex-col gap-8">
         <EventCalender />
+        <Announcement />
       </div>
     </div>
   );

@@ -17,12 +17,12 @@ export default function DashboardLayout({
           className="flex items-center justify-center gap-2 lg:justify-start p-4"
         >
           <Image width={32} height={32} src="/logo.png" alt="logo" />
-          <span className="hidden lg:block">School schema</span>
+          <span className="hidden lg:block font-bold">School schema</span>
         </Link>
         <Menu />
       </div>
       {/* right */}
-      <div className="w-[86%] sm:w-[90%] md:w-[92%] lg:w-[84%] xl:w-[86%] bg-yellow-400 overflow-scroll">
+      <div className="w-[86%] sm:h-[130rem] h-[140rem] md:h-[78rem]    sm:w-[90%] md:w-[92%] lg:w-[84%] xl:w-[86%] bg-yellow-400 ">
         <NavBar />
         {children}
       </div>
