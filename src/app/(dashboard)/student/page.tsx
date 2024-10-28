@@ -1,4 +1,6 @@
+"use client"
 import Announcement from "@/components/Announcement";
+import BigCalendar from "@/components/BigCalendar";
 import EventCalender from "@/components/EventCalender";
 import React from "react";
 
@@ -8,7 +10,8 @@ const page = () => {
       {/* left */}
       <div className="w-full xl:w-2/3">
         <div className="h-full bg-white p-4 rounded-md">
-          <h1>schedule (4A)</h1>
+          <h1 className="text-xl font-semibold">schedule (4A)</h1>
+          <BigCalendar />
         </div>
       </div>
       {/* right */}
